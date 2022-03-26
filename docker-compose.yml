@@ -3,8 +3,8 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-    image: bigbluebutton/greenlight:v2
-    container_name: greenlight-v2
+    image: ansv_meet:release-v2
+    container_name: ansv_meet
     env_file: .env
     restart: unless-stopped
     ports:
@@ -19,18 +19,20 @@ services:
       - ./log:/usr/src/app/log
       - ./storage:/usr/src/app/storage
 # When using sqlite3 as the database
-#      - ./db/production:/usr/src/app/db/production
+      - ./db/production:/usr/src/app/db/production
 # When using postgresql as the database
-    links:
-      - db
-  db:
-    image: postgres:13-alpine
-    restart: unless-stopped
-    ports:
-      - 127.0.0.1:5432:5432
-    volumes:
-      - ./db/production:/var/lib/postgresql/data
-    environment:
-      - POSTGRES_DB=postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
+  #   links:
+  #     - db
+      
+  # db:
+  #   image: postgres:13-alpine
+  #   restart: unless-stopped
+  #   container_name: ansv_meet_db
+  #   ports:
+  #     - 127.0.0.1:5432:5432
+  #   volumes:
+  #     - ./db/production:/var/lib/postgresql/data
+  #   environment:
+  #     - POSTGRES_DB=ansv_meet_production
+  #     - POSTGRES_USER=ansv
+  #     - POSTGRES_PASSWORD=UNAbz8TBFsVY4RqYU4XqrZFKrLW3PUYuv8HQ

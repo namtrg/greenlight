@@ -55,6 +55,8 @@ RUN apk update \
 
 
 COPY --from=base $RAILS_ROOT $RAILS_ROOT
+# COPY ./CA.pem /usr/local/share/ca-certificates/CA.crt 
+# RUN update-ca-certificates
 
 # Expose port 80.
 EXPOSE 80
