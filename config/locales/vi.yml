@@ -347,7 +347,7 @@ vi:
       title: Tạo vai trò mới
     create_room:
       access_code: Mã truy cập
-      access_code_placeholder: Tự động tạo mã phòng
+      access_code_placeholder: Tự động tạo mật khẩu phòng
       auto_join: Tự động tham gia vào phòng
       create: Tạo Phòng
       free_delete: Bạn có thể tuỳ ý xoá phòng này bất cứ lúc nào.
