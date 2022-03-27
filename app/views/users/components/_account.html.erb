@@ -34,7 +34,9 @@
       </div>
     </div>
     
-    <%= f.label :provider, t("settings.account.provider"), class: "form-label" %>
+    <% if false %>
+      <%= f.label :provider, t("settings.account.provider"), class: "form-label" %>
+    <% end %>
     <%= f.text_field :provider, class: "form-control", readonly: "" %>
     <br>
     <%= f.label :language, t("settings.account.language"), class: "form-label" %>
