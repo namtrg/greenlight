@@ -533,7 +533,7 @@ vi:
       auto: Bạn sẽ tự động tham gia khi phòng bắt đầu.
   settings:
     account:
-      fullname: Họ và tên
+      fullname: Tên
       language: Ngôn ngữ
       provider: Đối tác cấp tài khoản
       image: Hình ảnh
