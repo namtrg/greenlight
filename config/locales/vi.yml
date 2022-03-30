@@ -412,7 +412,7 @@ vi:
   name_update_success: Tên phòng đã được thay đổi thành công!
   no_user_email_exists: Không có người dùng hiện tại với email được chỉ định. Hãy chắc chắn rằng bạn đã gõ nó chính xác.
   omniauth_error: Một lỗi xảy ra trong khi xác thực với omniauth. Vui lòng thử lại hoặc liên hệ với quản trị viên!
-  omniauth_specific_error: "%{error}xảy ra trong khi xác thực với omniauth. Vui lòng thử lại hoặc liên hệ với quản trị viên!"
+  omniauth_specific_error: "%{error} xảy ra trong khi xác thực với omniauth. Vui lòng thử lại hoặc liên hệ với quản trị viên!"
   pagy:
     nav:
       prev: "&lsaquo; Trở về"
