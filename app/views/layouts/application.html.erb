@@ -34,7 +34,7 @@
     <meta property="og:locale" content=<%=user_locale(@room&.owner)%> />
     <meta property="og:description" content="<%= yield(:page_desc).present? ? yield(:page_desc) : t("landing.about", href: "Greenlight", locale: :en) %>" />
     <meta property="og:url" content="<%= request.base_url %>" />
-    <meta property="og:image" content="<%= logo_image %>" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/namtrg/greenlight/master/app/assets/images/bbb_logo.png" />
     <meta name="viewport" content= "width=device-width, user-scalable=no">
     <%= csrf_meta_tags %>
 

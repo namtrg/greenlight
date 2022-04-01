@@ -263,6 +263,7 @@ vi:
   home_room: Phòng Chính
   info_update_success: Thông tin đã được cập nhật thành công.
   invalid_credentials: Email và mật khẩu đã nhập không tìm thấy. Hãy thử lại hoặc bấm vào Quên mật khẩu để lấy mật khẩu mới.
+  invalid_credentials_external: Email và mật khẩu đã nhập không tìm thấy. Vui lòng thử lại.
   invalid_login_method: Đăng nhập thất bại do không khớp tài khoản. Bạn cần đăng nhập bằng Omniauth.
   invite_message: "Để mời ai đó tham gia phòng, hãy gửi cho họ liên kết này:"
   javascript:
@@ -302,9 +303,9 @@ vi:
         info: "Bạn không còn là %{role} ở %{url}."
         more-info: Bây giờ bạn có quyền hạn giống như một người dùng bình thường.
         root_link: Đăng nhập
-        subtitle: "Quyền hạn của %{role}đã bị hủy bỏ"
+        subtitle: "Quyền hạn của %{role} đã bị hủy bỏ"
       invite:
-        info: "Bạn đã dược mời bởi%{name} để tạo không gian riêng cho mình"
+        info: "Bạn đã dược mời bởi %{name} để tạo không gian riêng cho mình"
         signup_info: "Để đăng ký bằng email của bạn, nhấp vào nút bên dưới và làm theo các bước."
         signup_link: Đăng ký
         signup:
